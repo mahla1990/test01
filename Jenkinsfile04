@@ -25,6 +25,7 @@ pipeline {
           Steps{  
              withMaven(maven : "maven:3.3.3"){
              sh "mvn deploy"
+             echo "hiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii"
               }  
           }
         }
